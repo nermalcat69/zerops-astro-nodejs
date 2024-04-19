@@ -8,7 +8,6 @@ A nodejs Astro example for Zerops which you can deploy in 2 simple steps.
 
 - Astro
 - Tailwind
-- Prettier
 
 ## Instructions to Deploy on Zerops
 
