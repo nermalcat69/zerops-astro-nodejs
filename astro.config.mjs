@@ -1,16 +1,18 @@
 import { defineConfig } from 'astro/config';
-
 import node from "@astrojs/node";
+
+import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-    vite: {
+  vite: {
     ssr: {
-      noExternal: ['path-to-regexp'],
-    },
+      noExternal: ['path-to-regexp']
+    }
   },
   output: "server",
   adapter: node({
-    mode: "standalone",
-  })
+    mode: "standalone"
+  }),
+  integrations: [tailwind()]
 });
