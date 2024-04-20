@@ -48,3 +48,5 @@ zerops:
 
       # how to start your application
       start: pnpm start
+    envVariables:
+      HOST: 0.0.0.0
