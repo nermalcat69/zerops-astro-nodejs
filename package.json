@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "node ./dist/server/entry.mjs",
+    "start": "node dist/server/entry.mjs",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -13,7 +13,7 @@
     "@astrojs/check": "^0.5.10",
     "@astrojs/node": "^8.2.5",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.2.0",
+    "astro": "4.6.3",
     "astro-expressive-code": "^0.35.2",
     "chroma-js": "^2.4.2",
     "express": "^4.19.2",
