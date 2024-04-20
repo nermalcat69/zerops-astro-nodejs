@@ -21,11 +21,10 @@ project:
 
 services:
   - hostname: astronode
-    type: nodejs@18
+    type: nodejs@20
     buildFromGit: https://github.com/fxck/zerops-astro-nodejs
     ports:
-      - port: 3000
-        httpSupport: true
+      - port: 4321
     enableSubdomainAccess: true
     minContainers: 1
 ```
