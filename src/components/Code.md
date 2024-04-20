@@ -1,9 +1,9 @@
 ```yml
 project:
-   name: zerops-svelte
+   name: astro
 
   services:
-   - hostname: sveltenode
+   - hostname: astronode
     type: nodejs@18
     buildFromGit: https://github.com/fxck/zerops-astro-nodejs
     ports:
